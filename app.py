@@ -5,6 +5,7 @@ from fastapi.websockets import WebSocket
 from manager import WebSocketManager
 
 
+
 app = FastAPI()
 
 templates = Jinja2Templates(
